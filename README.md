@@ -1,6 +1,6 @@
-<h1 style="text-align: center; font-weight: bold; margin-top: 20px; margin-bottom: 20px;">maven-base-starter</h1>
+<h1 align="center" style="font-weight: bold; margin-top: 20px; margin-bottom: 20px;">maven-base-starter</h1>
 
-<p style="text-align:center;">
+<p align="center">
 
   <img alt="Github Build" src="https://img.shields.io/github/actions/workflow/status/Wilddiary/maven-base-starter/maven-release.yml" />
   <img alt="Synk Vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/github/Wilddiary/maven-base-starter" />
