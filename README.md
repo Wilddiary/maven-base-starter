@@ -38,6 +38,8 @@ Enforces the following quality gates.
 7. Enforces JDK and maven versions.
 8. On-demand dependency upgrade reports
 
+Includes GPG build plugin for signing the build artifacts. If you desire the artifacts should be signed then you need to configure GPG on your environment. Else, you can skip the signing process by setting the gpg.skip property to true either in your pom.xml or by passing it as a system property to maven.
+
 ### Usage ###
 Just use it as a parent pom by inheriting it in your project pom. Inherited projects will have the standard build
 experience with all quality gates defined by this project.
