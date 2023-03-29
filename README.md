@@ -1,4 +1,4 @@
-<h1 style="text-align:center;font-weight: bold; margin-top: 20px; margin-bottom: 20px;">maven-base-starter </h1>
+<h1 style="text-align: center; font-weight: bold; margin-top: 20px; margin-bottom: 20px;">maven-base-starter</h1>
 
 <p style="text-align:center;">
 
