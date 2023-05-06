@@ -2,7 +2,7 @@
 
 <p align="center">
 
-  <img alt="Github Build" src="https://img.shields.io/github/actions/workflow/status/Wilddiary/maven-base-starter/maven-release.yml" />
+  <img alt="Github Build" src="https://img.shields.io/github/actions/workflow/status/Wilddiary/maven-base-starter/.github/workflows/maven-build.yml" />
   <img alt="Synk Vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/github/Wilddiary/maven-base-starter" />
   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Wilddiary/maven-base-starter" />
   <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Wilddiary/maven-base-starter" />
