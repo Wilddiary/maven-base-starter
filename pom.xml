@@ -20,7 +20,7 @@ the License.
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.wilddiary</groupId>
   <artifactId>maven-base-starter</artifactId>
-  <version>1.1.2-SNAPSHOT</version>
+  <version>1.1.2</version>
   <packaging>pom</packaging>
   <name>Maven base starter parent</name>
   <description>Inheritable maven base starter for Java projects for faster bootstrapping with standard build experience.</description>
@@ -48,7 +48,7 @@ the License.
   <scm>
     <connection>scm:git:git://github.com/Wilddiary/maven-base-starter.git</connection>
     <developerConnection>scm:git:ssh://github.com/Wilddiary/maven-base-starter.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>1.1.2</tag>
     <url>https://github.com/Wilddiary/maven-base-starter/tree/main</url>
   </scm>
   <issueManagement>
