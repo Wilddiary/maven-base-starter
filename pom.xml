@@ -211,7 +211,7 @@ the License.
             <skipTestScope>true</skipTestScope>
             <formats>ALL</formats>
             <prettyPrint>true</prettyPrint>
-            <nvdApiKey>68221f01-5f62-419a-b420-ffd9d1fcb6f3</nvdApiKey>
+            <nvdApiKeyEnvironmentVariable>NVD_API_KEY</nvdApiKeyEnvironmentVariable>
           </configuration>
           <executions>
             <execution>
