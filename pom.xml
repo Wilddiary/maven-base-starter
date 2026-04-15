@@ -99,7 +99,7 @@ the License.
     <maven-enforcer-plugin.version>3.6.2</maven-enforcer-plugin.version>
     <maven-versions-plugin.version>2.21.0</maven-versions-plugin.version>
     <maven-sortpom-plugin.version>4.0.0</maven-sortpom-plugin.version>
-    <fmt-maven-plugin.version>2.27.0</fmt-maven-plugin.version>
+    <fmt-maven-plugin.version>2.27</fmt-maven-plugin.version>
     <maven-gpg-plugin.version>3.2.6</maven-gpg-plugin.version>
     <gpg.skip>false</gpg.skip>
   </properties>
