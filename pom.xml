@@ -71,7 +71,7 @@ the License.
     <dependency-check.dataDirectory>${user.home}/.m2/dependency-check-data</dependency-check.dataDirectory>
     <!-- Only applies when dependency-check runs: avoid re-download if DB was updated within this window. -->
     <dependency-check.nvdValidForHours>168</dependency-check.nvdValidForHours>
-    <junit.jupiter.version>5.14.2</junit.jupiter.version>
+    <junit.jupiter.version>5.14.3</junit.jupiter.version>
     <!-- Pinned to 3.5.3: surefire-junit5-tree-reporter is incompatible with 3.5.4+ -->
     <sure-fire-plugin.version>3.5.3</sure-fire-plugin.version>
     <surefire-junit5-tree-reporter.version>1.5.1</surefire-junit5-tree-reporter.version>
@@ -80,7 +80,7 @@ the License.
     <jacoco-min-coverage.ratio>0.80</jacoco-min-coverage.ratio>
     <jacoco-missed-classes.count>0</jacoco-missed-classes.count>
     <checkstyle-plugin.version>3.6.0</checkstyle-plugin.version>
-    <checkstyle.version>10.21.1</checkstyle.version>
+    <checkstyle.version>13.4.0</checkstyle.version>
     <checkstyle.skip>false</checkstyle.skip>
     <checkstyle.maxAllowedViolations>0</checkstyle.maxAllowedViolations>
     <checkstyle.violationSeverity>error</checkstyle.violationSeverity>
@@ -96,7 +96,7 @@ the License.
     <fmt-maven-plugin.version>2.29</fmt-maven-plugin.version>
     <maven-gpg-plugin.version>3.2.6</maven-gpg-plugin.version>
     <gpg.skip>false</gpg.skip>
-    <central-publishing-maven-plugin.version>0.9.0</central-publishing-maven-plugin.version>
+    <central-publishing-maven-plugin.version>0.10.0</central-publishing-maven-plugin.version>
   </properties>
   
   <dependencyManagement>
