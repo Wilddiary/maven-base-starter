@@ -76,9 +76,10 @@ the License.
     <lombok-maven-plugin.version>1.18.20.0</lombok-maven-plugin.version>
     <delombok.output>target/lombok-generated</delombok.output>
     <owasp-dependency-check.version>12.2.0</owasp-dependency-check.version>
+    <!-- Default false: local mvn verify runs OWASP. Export NVD_API_KEY for NVD API (higher limits). -->
     <dependency-check.skip>false</dependency-check.skip>
     <dependency-check.dataDirectory>${user.home}/.m2/dependency-check-data</dependency-check.dataDirectory>
-    <!-- Skip NVD API re-download if local DB was updated within this window (hours). -->
+    <!-- Only applies when dependency-check runs: avoid re-download if DB was updated within this window. -->
     <dependency-check.nvdValidForHours>168</dependency-check.nvdValidForHours>
     <junit.jupiter.version>5.14.2</junit.jupiter.version>
     <!-- Pinned to 3.5.3: surefire-junit5-tree-reporter is incompatible with 3.5.4+ -->
