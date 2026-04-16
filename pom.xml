@@ -47,7 +47,7 @@ the License.
   </developers>
   <scm>
     <connection>scm:git:git://github.com/Wilddiary/maven-base-starter.git</connection>
-e   <developerConnection>scm:git:git@github.com:Wilddiary/maven-base-starter.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:Wilddiary/maven-base-starter.git</developerConnection>
     <tag>HEAD</tag>
     <url>https://github.com/Wilddiary/maven-base-starter/tree/main</url>
   </scm>
