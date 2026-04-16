@@ -78,6 +78,8 @@ the License.
     <owasp-dependency-check.version>12.2.0</owasp-dependency-check.version>
     <dependency-check.skip>false</dependency-check.skip>
     <dependency-check.dataDirectory>${user.home}/.m2/dependency-check-data</dependency-check.dataDirectory>
+    <!-- Skip NVD API re-download if local DB was updated within this window (hours). -->
+    <dependency-check.nvdValidForHours>168</dependency-check.nvdValidForHours>
     <junit.jupiter.version>5.14.2</junit.jupiter.version>
     <!-- Pinned to 3.5.3: surefire-junit5-tree-reporter is incompatible with 3.5.4+ -->
     <sure-fire-plugin.version>3.5.3</sure-fire-plugin.version>
@@ -216,6 +218,7 @@ the License.
             <prettyPrint>true</prettyPrint>
             <nvdApiKeyEnvironmentVariable>NVD_API_KEY</nvdApiKeyEnvironmentVariable>
             <dataDirectory>${dependency-check.dataDirectory}</dataDirectory>
+            <nvdValidForHours>${dependency-check.nvdValidForHours}</nvdValidForHours>
           </configuration>
           <executions>
             <execution>

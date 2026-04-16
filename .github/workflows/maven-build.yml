@@ -19,5 +19,3 @@ on:
 jobs:
   call-workflow-build:
     uses: Wilddiary/workflows/.github/workflows/maven-build.yml@main
-    secrets:
-      NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
