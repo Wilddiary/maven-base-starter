@@ -345,6 +345,8 @@ the License.
             <!-- Ensure the bot's release commits don't trigger further pipeline runs -->
             <tagNameFormat>@{project.version}</tagNameFormat>
             <!-- Remove artifactId from the tag -->
+            <!-- release:perform forks Maven on the tag checkout; it does not inherit CLI -D flags. -->
+            <arguments>-Ddependency-check.skip=true</arguments>
           </configuration>
         </plugin>
         <!-- persist auto-generated sources -->
