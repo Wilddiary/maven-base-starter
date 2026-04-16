@@ -345,6 +345,9 @@ the License.
             <!-- Ensure the bot's release commits don't trigger further pipeline runs -->
             <tagNameFormat>@{project.version}</tagNameFormat>
             <!-- Remove artifactId from the tag -->
+            <!-- Use local working copy for perform instead of a remote git clone.
+                 Avoids SSH auth issues in CI where the forked clone runs outside the ssh-agent context. -->
+            <localCheckout>true</localCheckout>
             <!-- release:perform forks Maven on the tag checkout; it does not inherit CLI -D flags. -->
             <arguments>-Ddependency-check.skip=true</arguments>
           </configuration>
